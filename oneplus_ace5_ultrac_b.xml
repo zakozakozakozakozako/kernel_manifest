@@ -5,7 +5,7 @@
   <default remote="clo-la" revision="dummy_revision" sync-c="true" sync-tags="false"/>
   <project remote="origin" name="android_kernel_oneplus_mt6991" path="kernel-6.6" revision="oneplus/mt6991_b_16.0.0_oneplus_ace5_ultra">
     <linkfile dest="kernel_platform/common" src="."/>
-    <linkfile dest="kernel_platform/msm-kernel" src="."/>
+    <linkfile dest="kernel/kernel-6.6" src="."/>
   </project>
   <project remote="origin" name="android_kernel_modules_and_devicetree_oneplus_mt6991" path="./" revision="oneplus/mt6991_b_16.0.0_oneplus_ace5_ultra"/>
   <project remote="clo-la" name="kernel/common-modules/trusty" path="kernel_platform/common-modules/trusty" revision="b76f8570a1a3480a158f6bc69590dbf326a444d0" upstream="refs/heads/ks-kernel.lnx.4.0.r1-rel"/>
